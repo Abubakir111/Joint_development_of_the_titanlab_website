@@ -1289,7 +1289,7 @@ header {
   }
   .additional-info {
     font-size: 12px;
-    width: max-content;
+    width: 100%;
   }
   .product-section {
     width: 100%;
