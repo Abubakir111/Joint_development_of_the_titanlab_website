@@ -502,8 +502,9 @@ header {
   line-height: 24px;
   letter-spacing: 12%;
   text-align: center;
-  font-family: arialBlack;
+  font-family: Arial, sans-serif;
 }
+
 .info-text {
   color: rgb(0, 0, 0);
   font-size: 15px;
@@ -684,7 +685,7 @@ header {
   line-height: 24px;
   letter-spacing: 12%;
   text-align: left;
-  font-family: arialBlack;
+  font-family: Arial, sans-serif;
 }
 .documnets-container {
   display: flex;
@@ -1723,7 +1724,7 @@ header {
     max-width: max-content;
     font-size: 5px;
     line-height: 6px;
-    font-weight: 800;
+    font-weight: 400;
   }
   .mobil_version {
     stroke: black;
