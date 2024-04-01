@@ -14,10 +14,6 @@ html {
   font-family: 'arialBlack';
   src: url('../fonts/arial_black.woff'), format('woff');
 }
-@font-face {
-  font-family: 'arialBlackRegular';
-  src: url('../fonts/arial-black.woff'), format('woff');
-}
 body {
   width: 100%;
   font-family: Montserrat;
