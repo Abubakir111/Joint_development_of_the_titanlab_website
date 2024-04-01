@@ -426,7 +426,8 @@ header {
   font-weight: 700;
   line-height: 44px;
   padding-left: 0px;
-  font-family: arialBlack;
+  /* font-family: arialBlack; */
+  font-family: Arial, sans-serif;
 }
 .colored-section {
   background-color: #f0f0f0;
