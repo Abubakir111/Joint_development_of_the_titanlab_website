@@ -1740,6 +1740,8 @@ header {
     font-size: 12px;
     padding-left: 5px;
     line-height: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
   }
   .product-title {
     font-size: 8px;
