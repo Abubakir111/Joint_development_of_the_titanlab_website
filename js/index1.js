@@ -151,7 +151,7 @@ const fetchData = async () => {
           <div class="product__view-quantity_container">
             <div class="product__title_container">
               <div class="product__title">Вид</div>
-              <select class="product__options" id="product__options">
+              <select class="product__options" id="product__options" oninput="updatePriceOnChange(event)">
                        ${typeOfProduct
                          .map((item) => `<option value='${item.type}' id ="${item.id}">${item.type}</option>`)
                          .join('')}
@@ -673,23 +673,18 @@ const calculatePrice = (type, quantity, title) => {
 };
 
 const updatePriceOnChange = (event) => {
-  const newQuantity = parseInt(event.target.value); // Получаем новое количество из поля ввода
-  // console.log("Новое количество:", newQuantity);
-
-  const productType = document.getElementById('product__options').value; // Получаем значение выбранной опции (тип продукта)
-  // console.log("Тип продукта:", productType);
-
+  const newQuantity = parseInt(document.getElementById('product_input').value); // Получаем новое количество из поля ввода
+  const productType = document.getElementById('product__options').value; // Получаем значение выбранного вида продукта
   const productTitle = document.querySelector('.product__title_contianer h1').textContent.trim(); // Получаем название продукта
-  // console.log("Название продукта:", productTitle);
 
   const newPrice = calculatePrice(productType, newQuantity, productTitle); // Вычисляем новую цену
-  // console.log("Новая цена:", newPrice);
 
   // Обновляем цену на странице
   document.querySelectorAll('.product__price_container').forEach((priceContainer) => {
     priceContainer.textContent = newPrice + ' ₽';
   });
 };
+
 
 let moreButtonState = false;
 reviewBlockBtns.forEach((moreBtn) => {
