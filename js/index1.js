@@ -137,9 +137,10 @@ const fetchData = async () => {
         productMain.innerHTML = `
        <div class="product__img_container">
         <img src="${img}" alt="product" class="product__img" />
-        <div class="product__img_menu-container">
-          ${productOptionImage.map((item) => `<img src='${item}' alt='product' class='product__img_manu' />`).join('')}
-        </div>
+        <div class="product__img_menu-container" onclick="handleImageClick(event)">
+        ${productOptionImage.map((item) => `<img src='${item}' alt='product' class='product__img_manu' data-src='${item}' />`).join('')}
+      </div>
+      
         <div class="productMobal_add_price-container">
           <div class="product__price_container">${price}<span>Р</span></div>
           <button type="button" class="product__add-basket_btn">Добавить в корзину</button>
@@ -684,6 +685,13 @@ const updatePriceOnChange = (event) => {
     priceContainer.textContent = newPrice + ' ₽';
   });
 };
+
+// Глобальная функция для обработки клика на изображении в меню
+function handleImageClick(event) {
+  const newImgSrc = event.target.getAttribute('data-src'); // Получаем путь к новому изображению
+  const productImg = document.querySelector('.product__img'); // Находим основное изображение
+  productImg.setAttribute('src', newImgSrc); // Меняем его src на путь нового изображения
+}
 
 
 let moreButtonState = false;
