@@ -2,10 +2,10 @@
   "eSigs": [
     {
       "id": 1,
-      "img": "./Электронные сигареты/Waka Smash 6000/1.jpg",
+      "img": "./Electronic/Waka Smash 6000/1.jpg",
       "title": "WAKA SMASH 6000",
       "price": 650,
-      "productOptionImage": ["./Электронные сигареты/Waka Smash 6000/1.jpg", "./Электронные сигареты/Waka Smash 6000/2.jpg", "./Электронные сигареты/Waka Smash 6000/3.jpg"],
+      "productOptionImage": ["./Electronic/Waka Smash 6000/1.jpg", "./Electronic/Waka Smash 6000/2.jpg", "./Electronic/Waka Smash 6000/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Арбуз" },
         { "id": 2, "type": "Вишня" },
@@ -24,10 +24,10 @@
     },
     {
       "id": 2,
-      "img": "./Электронные сигареты/Waka SoPro 7000/1.jpg",
+      "img": "./Electronic/Waka SoPro 7000/1.jpg",
       "title": "WAKA SoPRO 7000",
       "price": 600,
-      "productOptionImage": ["./Электронные сигареты/Waka SoPro 7000/1.jpg", "./Электронные сигареты/Waka SoPro 7000/2.jpg", "./Электронные сигареты/Waka SoPro 7000/3.jpg"],
+      "productOptionImage": ["./Electronic/Waka SoPro 7000/1.jpg", "./Electronic/Waka SoPro 7000/2.jpg", "./Electronic/Waka SoPro 7000/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Арбуз" },
         { "id": 2, "type": "Гранат" },
@@ -44,10 +44,10 @@
     },
     {
       "id": 3,
-      "img": "./Электронные сигареты/Waka SoPro 10000/1.jpg",
+      "img": "./Electronic/Waka SoPro 10000/1.jpg",
       "title": "WAKA SoPRO 10000",
       "price": 800,
-      "productOptionImage": ["./Электронные сигареты/Waka SoPro 10000/1.jpg", "./Электронные сигареты/Waka SoPro 10000/2.jpg", "./Электронные сигареты/Waka SoPro 10000/3.jpg"],
+      "productOptionImage": ["./Electronic/Waka SoPro 10000/1.jpg", "./Electronic/Waka SoPro 10000/2.jpg", "./Electronic/Waka SoPro 10000/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Арбуз" },
         { "id": 2, "type": "Вишня" },
@@ -64,10 +64,10 @@
     },
     {
       "id": 4,
-      "img": "./Электронные сигареты/SMPO Ola/1.jpg",
+      "img": "./Electronic/SMPO Ola/1.jpg",
       "title": "SMPO Ola",
       "price": 380,
-      "productOptionImage": ["./Электронные сигареты/SMPO Ola/1.jpg", "./Электронные сигареты/SMPO Ola/2.jpg", "./Электронные сигареты/SMPO Ola/3.jpg"],
+      "productOptionImage": ["./Electronic/SMPO Ola/1.jpg", "./Electronic/SMPO Ola/2.jpg", "./Electronic/SMPO Ola/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "SMPO Ola" }
       ],
@@ -75,10 +75,10 @@
     },
     {
       "id": 5,
-      "img": "./Электронные сигареты/DLTA DL6000/1.jpg",
+      "img": "./Electronic/DLTA DL6000/1.jpg",
       "title": "DLTA DL6000",
       "price": 520,
-      "productOptionImage": ["./Электронные сигареты/DLTA DL6000/1.jpg", "./Электронные сигареты/DLTA DL6000/2.jpg", "./Электронные сигареты/DLTA DL6000/3.jpg"],
+      "productOptionImage": ["./Electronic/DLTA DL6000/1.jpg", "./Electronic/DLTA DL6000/2.jpg", "./Electronic/DLTA DL6000/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "DLTA DL6000" }
       ],
@@ -86,10 +86,10 @@
     },
     {
       "id": 6,
-      "img": "./Электронные сигареты/DLTA DL8000/1.jpg",
+      "img": "./Electronic/DLTA DL8000/1.jpg",
       "title": "DLTA DL8000",
       "price": 840,
-      "productOptionImage": ["./Электронные сигареты/DLTA DL8000/1.jpg", "./Электронные сигареты/DLTA DL8000/2.jpg", "./Электронные сигареты/DLTA DL8000/3.jpg"],
+      "productOptionImage": ["./ElectronicDLTA DL8000/1.jpg", "./ElectronicDLTA DL8000/2.jpg", "./Electronic/DLTA DL8000/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "DLTA DL8000" }
       ],
@@ -97,10 +97,10 @@
     },
     {
       "id": 7,
-      "img": "./Электронные сигареты/Viento VT 6000/1.jpg",
+      "img": "./Electronic/Viento VT 6000/1.jpg",
       "title": "Viento VT 6000",
       "price": 670,
-      "productOptionImage": ["./Электронные сигареты/Viento VT 6000/1.jpg", "./Электронные сигареты/Viento VT 6000/2.jpg", "./Электронные сигареты/Viento VT 6000/3.jpg"],
+      "productOptionImage": ["./Electronic/Viento VT 6000/1.jpg", "./Electronic/Viento VT 6000/2.jpg", "./Electronic/Viento VT 6000/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Viento VT 6000" }
       ],
@@ -108,10 +108,10 @@
     },
     {
       "id": 8,
-      "img": "./Электронные сигареты/Fummo Target/1.jpg",
+      "img": "./Electronic/Fummo Target/1.jpg",
       "title": "Fummo Target",
       "price": 620,
-      "productOptionImage": ["./Электронные сигареты/Fummo Target/1.jpg", "./Электронные сигареты/Fummo Target/2.jpg", "./Электронные сигареты/Fummo Target/3.jpg"],
+      "productOptionImage": ["./Electronic/Fummo Target/1.jpg", "./Electronic/Fummo Target/2.jpg", "./Electronic/Fummo Target/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Fummo Target" }
       ],
@@ -119,10 +119,10 @@
     },
     {
       "id": 9,
-      "img": "./Электронные сигареты/Fummo Spirit/1.jpg",
+      "img": "./Electronic/Fummo Spirit/1.jpg",
       "title": "Fummo Spirit",
       "price": 945,
-      "productOptionImage": ["./Электронные сигареты/Fummo Spirit/1.jpg", "./Электронные сигареты/Fummo Spirit/2.jpg", "./Электронные сигареты/Fummo Spirit/3.jpg"],
+      "productOptionImage": ["./Electronic/Fummo Spirit/1.jpg", "./Electronic/Fummo Spirit/2.jpg", "./Electronic/Fummo Spirit/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Fummo Spirit" }
       ],
@@ -130,10 +130,10 @@
     },
     {
       "id": 10,
-      "img": "./Электронные сигареты/Fummo Indic/1.jpg",
+      "img": "./Electronic/Fummo Indic/1.jpg",
       "title": "Fummo Indic",
       "price": 1065,
-      "productOptionImage": ["./Электронные сигареты/Fummo Indic/1.jpg", "./Электронные сигареты/Fummo Indic/2.jpg", "./Электронные сигареты/Fummo Indic/3.jpg"],
+      "productOptionImage": ["./Electronic/Fummo Indic/1.jpg", "./ElectronicFummo Indic/2.jpg", "./Electronic/Fummo Indic/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Fummo Indic" }
       ],
@@ -141,10 +141,10 @@
     },
     {
       "id": 11,
-      "img": "./Электронные сигареты/Waka Solo 1800/1.jpg",
+      "img": "./Electronic/Waka Solo 1800/1.jpg",
       "title": "WAKA SOLO 1800",
       "price": 552,
-      "productOptionImage": ["./Электронные сигареты/Waka Solo 1800/1.jpg", "./Электронные сигареты/Waka Solo 1800/2.jpg", "./Электронные сигареты/Waka Solo 1800/3.jpg"],
+      "productOptionImage": ["./Electronic/Waka Solo 1800/1.jpg", "./Electronic/Waka Solo 1800/2.jpg", "./Electronic/Waka Solo 1800/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Вишня Лайм" },
         { "id": 2, "type": "Ананас Маракуйя" },
@@ -161,10 +161,10 @@
     },
     {
       "id": 12,
-      "img": "./Электронные сигареты/Waka SLAM 2300/1.jpg",
+      "img": "./Electronic/Waka SLAM 2300/1.jpg",
       "title": "WAKA SLAM 2300",
       "price": 673,
-      "productOptionImage": ["./Электронные сигареты/Waka SLAM 2300/1.jpg", "./Электронные сигареты/Waka SLAM 2300/2.jpg", "./Электронные сигареты/Waka SLAM 2300/3.jpg"],
+      "productOptionImage": ["./Electronic/Waka SLAM 2300/1.jpg", "./Electronic/Waka SLAM 2300/2.jpg", "./Electronic/Waka SLAM 2300/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Панч" },
         { "id": 2, "type": "Банан Кокос" },
@@ -183,10 +183,10 @@
   "chewingGum": [
     {
       "id": 1,
-      "img": "./Жевательный табак/Odens/1.jpg",
+      "img": "./Tabak/Odens/1.jpg",
       "title": "ODENS",
       "price": 485,
-      "productOptionImage": ["./Жевательный табак/Odens/1.jpg", "./Жевательный табак/Odens/2.jpg", "./Жевательный табак/Odens/3.jpg"],
+      "productOptionImage": ["./Tabak/Odens/1.jpg", "./Tabak/Odens/2.jpg", "./Tabak/Odens/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "COLD DRY, 13 ГР" },
         { "id": 2, "type": "MINI" },
@@ -200,10 +200,10 @@
   },
     {
       "id": 2,
-      "img": "./Жевательный табак/Siberia/1.jpg",
+      "img": "./Tabak/Siberia/1.jpg",
       "title": "SIBERIA",
       "price": 510,
-      "productOptionImage": ["./Жевательный табак/Siberia/1.jpg", "./Жевательный табак/Siberia/2.jpg", "./Жевательный табак/Siberia/3.jpg"],
+      "productOptionImage": ["./Tabak/Siberia/1.jpg", "./Tabak/Siberia/2.jpg", "./Tabak/Siberia/3.jpg"],
 
       "typeOfProduct": [
         { "id": 1, "type": "13гр" },
@@ -214,10 +214,10 @@
     },
     {
       "id": 3,
-      "img": "./Жевательный табак/Fishka/1.jpg",
+      "img": "./Tabak/Fishka/1.jpg",
       "title": "FISHKA",
       "price": 470,
-      "productOptionImage": ["./Жевательный табак/Fishka/1.jpg", "./Жевательный табак/Fishka/2.jpg", "./Жевательный табак/Fishka/3.jpg"],
+      "productOptionImage": ["./Tabak/Fishka/1.jpg", "./Tabak/Fishka/2.jpg", "./Tabak/Fishka/3.jpg"],
 
       "typeOfProduct": [
         { "id": 1, "type": "MEDIUM" },
@@ -229,10 +229,10 @@
     },
     {
       "id": 4,
-      "img": "./Жевательный табак/ARQ/1.jpg",
+      "img": "./Tabak/ARQ/1.jpg",
       "title": "ARQ",
       "price": 455,
-      "productOptionImage": ["./Жевательный табак/ARQ/1.jpg", "./Жевательный табак/ARQ/2.jpg", "./Жевательный табак/ARQ/3.jpg"],
+      "productOptionImage": ["./Tabak/ARQ/1.jpg", "./TabakARQ/2.jpg", "./Tabak/ARQ/3.jpg"],
 
       "typeOfProduct": [
         { "id": 1, "type": "Черная вишня" },
@@ -249,10 +249,10 @@
     },
     {
       "id": 5,
-      "img": "./Жевательный табак/Husky/1.jpg",
+      "img": "./Tabak/Husky/1.jpg",
       "title": "HUSKY",
       "price": 470,
-      "productOptionImage": ["./Жевательный табак/Husky/1.jpg", "./Жевательный табак/Husky/2.jpg", "./Жевательный табак/Husky/3.jpg"],
+      "productOptionImage": ["./Tabak/Husky/1.jpg", "./Tabak/Husky/2.jpg", "./Tabak/Husky/3.jpg"],
 
       "typeOfProduct": [
         { "id": 1, "type": "МЕНТОЛ" },
@@ -264,10 +264,10 @@
     },
     {
       "id": 6,
-      "img": "./Жевательный табак/Pitbull/1.jpg",
+      "img": "./Tabak/Pitbull/1.jpg",
       "title": "PITBULL",
       "price": 440,
-      "productOptionImage": ["./Жевательный табак/Pitbull/1.jpg"],
+      "productOptionImage": ["./Tabak/Pitbull/1.jpg"],
 
       "typeOfProduct": [
         { "id": 1, "type": "Гранат мята MINI 10гр" },
@@ -286,10 +286,10 @@
     },
     {
       "id": 7,
-      "img": "./Жевательный табак/Admiral/1.jpg",
+      "img": "./Tabak/Admiral/1.jpg",
       "title": "ADMIRAL",
       "price": 450,
-      "productOptionImage": ["./Жевательный табак/Admiral/1.jpg", "./Жевательный табак/Admiral/2.jpg","./Жевательный табак/Admiral/3.jpg"],
+      "productOptionImage": ["./Tabak/Admiral/1.jpg", "./Tabak/Admiral/2.jpg","./Tabak/Admiral/3.jpg"],
 
       "typeOfProduct": [
         { "id": 1, "type": "Мята STRONG SLIM" },
@@ -312,10 +312,10 @@
     },
     {
       "id": 8,
-      "img": "./Жевательный табак/Iceberg/1.jpg",
+      "img": "./Tabak/Iceberg/1.jpg",
       "title": "ICEBERG",
       "price": 260,
-      "productOptionImage": ["./Жевательный табак/Iceberg/1.jpg", "./Жевательный табак/Iceberg/2.jpg"],
+      "productOptionImage": ["./Tabak/Iceberg/1.jpg", "./Tabak/Iceberg/2.jpg"],
 
       "typeOfProduct": [
         { "id": 1, "type": "Банан" },
@@ -351,10 +351,10 @@
   "sticks": [
     {
       "id": 1,
-      "img": "./Стики/Terea/1.jpg",
+      "img": "./Stick/Terea/1.jpg",
       "title": "TEREA",
       "price": 200,
-      "productOptionImage": ["./Стики/Terea/1.jpg", "./Стики/Terea/2.jpg", "./Стики/Terea/3.jpg"],
+      "productOptionImage": ["./Stick/Terea/1.jpg", "./Stick/Terea/2.jpg", "./Stick/Terea/3.jpg"],
       "typeOfProduct": [
         { "id": 1, "type": "Purple wave" },
         { "id": 2, "type": "Amber" },
