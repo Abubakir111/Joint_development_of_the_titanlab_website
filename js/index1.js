@@ -1211,6 +1211,11 @@ const addbasketProductStorage = (img, title, price) => {
   const quantity = Number(document.getElementById('product_input').value);
   const typeID = typeoFProduct.options[typeoFProduct.selectedIndex].id;
   const typeValue = typeoFProduct.value;
+  const countBlockAnimate = document.querySelector('.cart-count');
+  countBlockAnimate.classList.add('cart-countAniamtiaon');
+  setTimeout(function () {
+    countBlockAnimate.classList.remove('cart-countAniamtiaon');
+  }, 1000);
 
   addnewProduct = JSON.parse(localStorage.getItem('productData'));
   let newQuantity = 0;
