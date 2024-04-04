@@ -137,9 +137,10 @@ const fetchData = async () => {
         productMain.innerHTML = `
        <div class="product__img_container">
         <img src="${img}" alt="product" class="product__img" />
-        <div class="product__img_menu-container">
-          ${productOptionImage.map((item) => `<img src='${item}' alt='product' class='product__img_manu' />`).join('')}
-        </div>
+        <div class="product__img_menu-container" onclick="handleImageClick(event)">
+        ${productOptionImage.map((item) => `<img src='${item}' alt='product' class='product__img_manu' data-src='${item}' />`).join('')}
+      </div>
+      
         <div class="productMobal_add_price-container">
           <div class="product__price_container">${price}<span>Р</span></div>
           <button type="button" class="product__add-basket_btn">Добавить в корзину</button>
@@ -151,7 +152,7 @@ const fetchData = async () => {
           <div class="product__view-quantity_container">
             <div class="product__title_container">
               <div class="product__title">Вид</div>
-              <select class="product__options" id="product__options">
+              <select class="product__options" id="product__options" oninput="updatePriceOnChange(event)">
                        ${typeOfProduct
                          .map((item) => `<option value='${item.type}' id ="${item.id}">${item.type}</option>`)
                          .join('')}
@@ -673,23 +674,25 @@ const calculatePrice = (type, quantity, title) => {
 };
 
 const updatePriceOnChange = (event) => {
-  const newQuantity = parseInt(event.target.value); // Получаем новое количество из поля ввода
-  // console.log("Новое количество:", newQuantity);
-
-  const productType = document.getElementById('product__options').value; // Получаем значение выбранной опции (тип продукта)
-  // console.log("Тип продукта:", productType);
-
+  const newQuantity = parseInt(document.getElementById('product_input').value); // Получаем новое количество из поля ввода
+  const productType = document.getElementById('product__options').value; // Получаем значение выбранного вида продукта
   const productTitle = document.querySelector('.product__title_contianer h1').textContent.trim(); // Получаем название продукта
-  // console.log("Название продукта:", productTitle);
 
   const newPrice = calculatePrice(productType, newQuantity, productTitle); // Вычисляем новую цену
-  // console.log("Новая цена:", newPrice);
 
   // Обновляем цену на странице
   document.querySelectorAll('.product__price_container').forEach((priceContainer) => {
     priceContainer.textContent = newPrice + ' ₽';
   });
 };
+
+// Глобальная функция для обработки клика на изображении в меню
+function handleImageClick(event) {
+  const newImgSrc = event.target.getAttribute('data-src'); // Получаем путь к новому изображению
+  const productImg = document.querySelector('.product__img'); // Находим основное изображение
+  productImg.setAttribute('src', newImgSrc); // Меняем его src на путь нового изображения
+}
+
 
 let moreButtonState = false;
 reviewBlockBtns.forEach((moreBtn) => {

@@ -1534,8 +1534,7 @@ header {
     font-size: 7px;
   }
   .product__description_container {
-    font-size: 6px;
-
+    font-size: 10px;
     line-height: 10px;
   }
   .product__description_container p {
@@ -1895,7 +1894,7 @@ header {
     max-width: 30px;
   }
   .product__description_container {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 12px;
   }
   .product__price_contianer {

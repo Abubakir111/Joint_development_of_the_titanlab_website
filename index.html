@@ -74,7 +74,8 @@
           </div>
           <div id="myForm" class="form-popup">
             <div>
-              <form action="submit.php" class="form-container" method="POST">
+              <form class="form-container" method="POST">
+                <!-- <form action="submit.php" class="form-container" method="POST"> -->
                 <button class="form-popup-crose-btn" onclick="closeForm()">
                   <img
                     class="form-popup-crose-img"
@@ -85,14 +86,15 @@
                 </button>
                 <div class="form-content">
                   <h3 class="form-container-h3">Оставить заявку</h3>
-                  <input type="text" placeholder="Ваше имя*" name="name" required class="form-popup-input" />
-                  <input type="text" placeholder="Номер телефона*" name="phone" required class="form-popup-input" />
+                  <input type="text" placeholder="Ваше имя*" name="name" required class="form-popup-input" maxlength="20"/>
+                  <input type="text" placeholder="Номер телефона*" name="phone" required class="form-popup-input" maxlength="20"/>
                   <input
                     type="text"
                     placeholder="Телеграм для связи*"
                     name="telegram"
                     required
                     class="form-popup-input"
+                         maxlength="20"
                   />
                   <p class="form-popup-massage">
                     *Нажимая на кнопку, Вы соглашаетесь на обработку персональных данных.
@@ -364,11 +366,11 @@
         <h1 class="title-document">Документы и сертификаты</h1>
         <div class="documnets-container">
           <div class="column" id="column1 ">
-            <a class="document" href="Новый-документ.pdf " download>
+            <a class="document" href="1.pdf " download>
               <img src="./images/icons/file-icon.png" alt="file_icon" />
               <p>Свидетельство Роспатента о торговой марке</p>
             </a>
-            <a class="document" href="Новый-документ.pdf " download>
+            <a class="document" href="1.pdf " download>
               <img src="./images/icons/file-icon.png" alt="file_icon" />
               <p>Декларация ЕАС</p>
             </a>
@@ -390,7 +392,7 @@
               <p>Декларация ЕАС</p>
             </a> -->
 
-            <a class="document" href="Новый-документ.pdf " download>
+            <a class="document" href="1.pdf " download>
               <img src="./images/icons/file-icon.png" alt="file_icon" />
               <p>Сертификат Качества</p>
             </a>
@@ -407,12 +409,12 @@
         <div class="footer-contact-info" id="contact">
           <h3>Контактная информация</h3>
           <div class="social-icons">
-            <a href="https://vk.com/natrixd " target="_blank "><img src="./images/icons/vk.png" alt="VK " /></a>
-            <a href="https://web.telegram.org/k/ " target="_blank "
+            <a href="https://vk.com/titanlab_official  " target="_blank "><img src="./images/icons/vk.png" alt="VK " /></a>
+            <a href="https://t.me/titan_opt " target="_blank "
               ><img src="./images/icons/telegram.png" alt="Telegram "
             /></a>
             <a
-              href="https://www.figma.com/file/critQet4LBfgkezNCOu5Ff/TitanLab?type=design&node-id=80-87&mode=design&t=IAinTDluUz9KLlmh-0 "
+              href="https://wa.me/79959189616  "
               target="_blank "
               ><img src="./images/icons/watsapp.png" alt="WhatsApp "
             /></a>
